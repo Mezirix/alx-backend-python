@@ -4,6 +4,6 @@
 
 
 def to_str(n: float) -› str:
-    '''converts a floating-point number to a string.
+    '''Converts a floating-point number to a string.
     '''
     return str(n)
