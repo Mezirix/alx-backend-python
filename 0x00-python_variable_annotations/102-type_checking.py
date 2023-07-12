@@ -9,13 +9,13 @@ def zoom_array(Ist: Tuple, factor: int = 2) -> List:
     '''
     zoomed_in: List = [
         item for item in Ist 
-        for i in range(int (factor))
+        for i in range(int(factor))
     ]
     return zoomed_in
 
 
 array = (12, 72, 91)
 
-200m_2x = zoom_array (array)
+zoom_2x = zoom_array(array)
 
-200m_3х = zoom_array (array, 3)
+zoom_3х = zoom_array (array, 3)
