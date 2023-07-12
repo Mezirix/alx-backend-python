@@ -4,6 +4,6 @@
 
 
 def floor(a: float) -> int:
-    '''computes the floor of a floating-point numbers.
+    '''computes the floor of a floating-point number
     '''
     return int(a)
