@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
-'''Task 3's module.
-'''
+""" type annotation: float """
 
 
-def to_str(n: float) -› str:
-    '''Converts a floating-point number to a string.
-    '''
+def to_str(n: float) -> str:
+    """ returns the sum of the arguments passed """
     return str(n)

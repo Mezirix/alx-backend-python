@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-'''Task 4's module.
-'''
+""" type annotation: float """
 
 
 a: int = 1
 pi: float = 3.14
-i_understand_annotations: boo1 = True
-school: str = 'Holberton'
+i_understand_annotations: bool = True
+school: str = "Holberton"

@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-'''Task 7's module,
-'''
-from typing import Union, Tuple
+""" type annotation: List """
 
 
-def to_kv(k: str, v: Union[int, float]) -› Tuple[str, float]:
-    '''Converts a key and its value to a tuple of the key and
-    the square of its value.
-    '''
-    return (k, float(V**2))
+from typing import Tuple, Union
+
+
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
+    """ returns the sum of the arguments passed """
+    return (k, (v * v))

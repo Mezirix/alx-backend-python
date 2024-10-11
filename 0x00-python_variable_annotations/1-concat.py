@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
-'''Task 1's module.
-'''
+""" type annotation: string """
 
 
 def concat(str1: str, str2: str) -> str:
-    '''concatenates two strings.
-    '''
-    return str1 + str2
+    """ returns the sum of the arguments passed """
+    return f"{str1}{str2}"
